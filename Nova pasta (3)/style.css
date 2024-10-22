@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(120deg, #fdfbfb, #ebedee);
+
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #76ff03, #00e676);
+    color: white;
+    padding: 15px 0; /* Reduzi o padding para ficar mais minimalista */
+    text-align: center;
+    position: relative;
+    font-family: 'Helvetica Neue', sans-serif; /* Adicionei uma fonte minimalista */
+    font-size: 24px; /* Tamanho da fonte ajustado para um estilo mais clean */
+    letter-spacing: 1px; /* Espaçamento entre letras para um visual elegante */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adicionei uma sombra sutil para dar profundidade */
+}
+
+
+header img {
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.service {
+    background: linear-gradient(135deg, #00C9FF, #92FE9D);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.service:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    background: #76ff03;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#randomButton {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    visibility: hidden;
+}
+
+#randomButton:hover {
+    background-color: #e68a00;
+}
+
+section {
+    position: relative;
+    margin-bottom: 30px;
+}

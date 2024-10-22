@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: linear-gradient(90deg, #76ff03, #00e676);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#store-header-points {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Espaço ao redor dos produtos */
+    flex-grow: 1;
+}
+
+.product {
+    background: #003366;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 220px; /* Ajusta o crescimento e a largura mínima */
+    max-width: 220px; /* Garante que não estique além desse valor */
+    text-align: center;
+    color: white;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product button {
+    background-color: #76ff03;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+    background-color: #45a049;
+}
+
+#table-container {
+    margin-top: 30px;
+}
+
+#product-list-table {
+    width: 300px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#product-list-table th, #product-list-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+#product-list-table th {
+    background-color: #003366;
+    color: white;
+}
+
+footer {
+    background: linear-gradient(90deg, #76ff03, #00e676);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
